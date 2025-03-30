@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(to top, #002a54, #0053a0);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.content-container {
+    width: 500px;
+    margin: 10% auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 10);
+}
+
+.progress-bar {
+    width: 80%;
+    height: 15px;
+    background-color: #000000;;
+    border-radius: 10px;
+    margin: 10px auto;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    width: 10px;
+    background-color: #00509c;
+    border-radius: 10px;
+    transition: width 1s ease-in-out;
+}
+
+img {
+    max-width: 80%;
+    
+    margin-top: 15px;
+    border-radius: 10px;
+}
